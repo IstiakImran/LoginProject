@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-// eslint-disable-next-line no-unused-vars
 const firebaseConfig = {
   apiKey: "AIzaSyAvkuaCfXVqkiyFgAYxmrlQkjvS5SsmL80",
   authDomain: "loginproject-ddd1c.firebaseapp.com",
@@ -14,3 +15,5 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
+const app = initializeApp(firebaseConfig);
+export default app;
